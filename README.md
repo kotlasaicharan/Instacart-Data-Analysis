@@ -25,7 +25,13 @@ Instacart is an American technology company that operates as a same-day grocery 
 - **departments**: This file contains different departments and there are total 21 unique departments.
 
 - **orders**: This file contains all the orders made by different users.
-  - jhfldk
+  - There are total 3421083 orders made by total 206209 users.
+  - There are three sets of orders: Prior, Train and Test. The distributions of orders in Train and Test sets are similar whereas the distribution of orders in Prior set is different.
+  - The total orders per customer ranges from 0 to 100.
+          ![image](https://github.com/user-attachments/assets/8fafeee9-c246-45dd-b311-91aa98471ce8)
+  - kjdfhvhfvhef
+  - kjnvjfvefj
+
 
 
 
