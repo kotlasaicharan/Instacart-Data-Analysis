@@ -8,7 +8,7 @@ Instacart is an American technology company that operates as a same-day grocery 
 - Build a machine learning model to predict which previously purchased product will be placed in the user’s next order.
 
 ## analysis
-.
+```
 ├── Plots/                                      : Contains all plots 
 ├── Data Description and Analysis.ipynb         : Initial analysis to understand data
 ├── Exploratory Data Analysis.ipynb             : EDA to analyze customer purchase pattern
@@ -19,4 +19,10 @@ Instacart is an American technology company that operates as a same-day grocery 
 ├── ANN Model.ipynb                             : Neural Network model for product reorder prediction
 ├── XGBoost Model.ipynb                         : XGBoost model for product reorder prediction
 ├── LICENSE                                     : License
-└── README.md                                   : Project Report 
+└── README.md                                   : Project Report
+```
+
+
+
+
+
