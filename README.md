@@ -10,12 +10,12 @@ Instacart is an American technology company that operates as a same-day grocery 
 ## Repo details
 ```
 ├── Plots/                                      : Contains all plots 
-├── Instacart Data Analysis.ipynb         : Initial analysis to understand data
-├── Instacart EDA.ipynb             : EDA to analyze customer purchase pattern
-├── Instacart Market Basket Analysis.ipynb                : Market Basket Analysis to find products association
-├── Instacart Feature Extraction.ipynb                    : Feature engineering and extraction for a ML model
-├── Instacart data preparation.ipynb                      : Data preparation for modeling
-├── Instscart XGBoost Model.ipynb                         : XGBoost model for product reorder prediction
+├── Instacart Data Analysis.ipynb               : Initial analysis to understand data
+├── Instacart EDA.ipynb                         : EDA to analyze customer purchase pattern
+├── Instacart Market Basket Analysis.ipynb      : Market Basket Analysis to find products association
+├── Instacart Feature Extraction.ipynb          : Feature engineering and extraction for a ML model
+├── Instacart data preparation.ipynb            : Data preparation for modeling
+├── Instscart XGBoost Model.ipynb               : XGBoost model for product reorder prediction
 └── README.md                                   : Project Report
 ```
 
@@ -24,7 +24,8 @@ Instacart is an American technology company that operates as a same-day grocery 
 
 - **departments**: This file contains different departments and there are total 21 unique departments.
 
-- **orders**: This file contains all the orders made by different users. From below analysis, we can conclude following:
+- **orders**: This file contains all the orders made by different users.
+  - jhfldk
 
 
 
