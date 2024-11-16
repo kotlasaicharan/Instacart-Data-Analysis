@@ -252,6 +252,23 @@ Since the dataframe is huge, I reduced the memory consumption of it by downcasti
 
 Since, we can hack the F1 score by changing the threshold, I relied on AUC Score for model evaluation. The performance of both of these models is shown below using Confusion Matrix, ROC curve and classification report. The feature important plot from XGBoost model is also shown to understand important features which help predict product's reorder. The performance of both models is almost similar and XGBoost slightly performs better in terms of ROC-AUC.
 
+**Neural Network Model Architecture and Performance:**
+
+<p align="center">
+  <img width="400" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/archie-ann.png">
+</p>
+
+<p align="center">
+  <img width="400" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/report-ann.png">
+</p>
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/metrics-ann.png">
+</p>
+
+**XGBoost Model's Performance and Feature Importance:**
+
+
 <p align="center">
   <img width="400" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost-Report.png">
 </p>
