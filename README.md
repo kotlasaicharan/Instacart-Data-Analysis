@@ -40,7 +40,13 @@ Instacart is an American technology company that operates as a same-day grocery 
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Total%20Orders%20by%20Customers.png">
 </p>  
 
+<p align="center">
+  <img width="600" height="300" src="">
+</p>  
 
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Day%20of%20week%20Vs%20Hour%20of%20day.png">
+</p>  
 
   
 
