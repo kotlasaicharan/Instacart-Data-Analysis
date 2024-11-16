@@ -33,8 +33,15 @@ Instacart is an American technology company that operates as a same-day grocery 
   - Based on the heatmap between 'Day of Week' and 'Hour of Day,' we can say that Saturday afternoons and Sunday mornings are prime time for orders.
 
 <p align="center">
-  <img width="300" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Total%20Orders%20per%20Day%20of%20Week.png">
+  <img width="400" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Total%20Orders%20per%20Day%20of%20Week.png">
 </p>
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency of Total Orders by Customers.png.png">
+</p>  
+
+
+
   
 
 
