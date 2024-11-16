@@ -255,11 +255,11 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 **Neural Network Model Architecture and Performance:**
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/archie-ann.png">
+  <img width="500" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/archie-ann.png">
 </p>
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/report-ann.png">
+  <img width="450" height="200" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/report-ann.png">
 </p>
 
 <p align="center">
