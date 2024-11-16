@@ -53,7 +53,7 @@ Instacart is an American technology company that operates as a same-day grocery 
     - The percentage of reorder items in this set is 58.97%.
 
 <p align="center">
-  <img width="600" height="300" src=" https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Prior%20set.png">
+  <img width="600" height="300" src= "https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Prior%20set.png">
 </p>  
 
 - **order_products_train:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
@@ -115,7 +115,7 @@ For the analysis I combined all of the separate data files into one single dataf
   
 
 <p align="center">
-  <img width="500" height="400" src= "![image](https://github.com/user-attachments/assets/10ca1141-ae4a-4a9c-9684-eef30335c829)" >
+  <img width="500" height="400" src= "https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/reorder-df.png" >
 </p>
 
 - In the below plot of cumulative total users per product vs products, we can see that 85% of the users buy only 10000 products out of 49688 products. If we are interested in shelf space optimization, we should have only these 10000 products. Here, I assume that the profit from remaining 39688 products are not significant high. If we had prices of these products, we could have considered the products having high revenue, high reorder percentage and high total product sale.
