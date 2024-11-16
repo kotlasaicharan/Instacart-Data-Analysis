@@ -71,6 +71,59 @@ Instacart is an American technology company that operates as a same-day grocery 
 For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% (4.1 GB to 2.0 GB) by type conversion and without loosing any information.
 
 - This plot shows most popular aisles based on total products bought.
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Total%20Orders%20and%20Reorders%20From%20Most%20Popular%20Aisles.png">
+</p>
+- As we can see in plot below the reorder percentage of day-to-day food items is high and for other products such as vitamins, first-aids, beauty products, etc. reorder percentage is low. This is true as we buy only groceries regularly and do not buy those items in every order.
+
+<p align="center">
+<img width="400" height="220" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Aisles%20with%20Highest%20Reorder%20Ratio.png"> 
+<img width="400" height="220" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Aisles%20with%20Lowest%20Reorder%20Ratio.png"> 
+<p/>
+
+- The below plot shows popular departments. The store layout should be in a way that popular departments are very near to each other.
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Total%20Orders%20and%20Reorders%20From%20Departments.png">
+</p>
+
+- The below plot shows most popular products. As we can see there are many organic products in the most popular products.
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Most%20Popular%20Products.png">
+</p>
+
+- We can see that there are less number of organic products, but their Mean reorder percentage is high. This tells us that we should focus more on organic products in the store.
+
+<p align="center">
+    <img width="400" height="250" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Total%20Organic%20and%20Inorganic%20products.png"/> 
+    <img width="400" height="250" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Mean%20Reorder%20Ratio%20of%20Organic_Inorganic%20Products.png"/>
+</p>
+
+
+- We can plot add-to-cart-order and mean reorder percentage. As we can see the lower the add-to-cart-order higher is the reorder percentage. This makes sense as we mostly buy things first that are required on a day-to-day basis.
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Add%20to%20Cart%20Order%20VS%20Reorder%20Ratio.png">
+</p>
+
+- In the below plot of reorder percentage and number of product purchase, we see a ceiling effect. Many people try different product once and they do not reorder again. Also, there are users who buy certain products regularly. 
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Reorder%20Percentage%20VS%20Total%20Orders.png">
+</p>
+
+- We can see that the total unique users of products having the highest reorder ratio are only a few (1-15 only). This means that these users like these products and would buy regularly.
+
+<p align="center">
+  <img width="500" height="400" src= ![image](https://github.com/user-attachments/assets/10ca1141-ae4a-4a9c-9684-eef30335c829) >
+</p>
+
+- In the below plot of cumulative total users per product vs products, we can see that 85% of the users buy only 10000 products out of 49688 products. If we are interested in shelf space optimization, we should have only these 10000 products. Here, I assume that the profit from remaining 39688 products are not significant high. If we had prices of these products, we could have considered the products having high revenue, high reorder percentage and high total product sale.
+
+<p align="center">
+  <img width="600" height="300" src= "https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Cumulative%20Sum%20of%20Unique%20Users.png">
+</p>
 
 
 
