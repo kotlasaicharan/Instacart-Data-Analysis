@@ -40,15 +40,37 @@ Instacart is an American technology company that operates as a same-day grocery 
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Total%20Orders%20by%20Customers.png">
 </p>  
 
-<p align="center">
-  <img width="600" height="300" src="">
-</p>  
+
 
 <p align="center">
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Day%20of%20week%20Vs%20Hour%20of%20day.png">
 </p>  
+  -most of the orders takes place from 8AM to 6 PM
+- **products:** This file contains the list of total 49688 products and their aisle as well as department. The number of products in different aisles and different departments are different.
 
+- **order_products_prior:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
+    
+    - In this file there is an information of total 3214874 orders through which total 49677 products were ordered.
+    - From the 'Count VS Items in cart' plot, we can say that most of the people buy 1-15 items in an order and there were a maximum of 145 items in an order.
+    - The percentage of reorder items in this set is 58.97%.
+
+<p align="center">
+  <img width="600" height="300" src=" https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Prior%20set.png">
+</p>  
+
+- **order_products_train:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
+    - In this file there is an information of total 131209 orders through which total 39123 products were ordered.
+    - From the 'Count VS Items in cart' plot, we can say that most of the people buy 1-15 items in an order and there were a maximum of 145 items in an order.
+    - The percentage of reorder items in this set is 59.86%.
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Items%20in%20Cart%20in%20Train%20set.png">
+</p>
   
+## Exploratory Data Analysis
+For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% (4.1 GB to 2.0 GB) by type conversion and without loosing any information.
+
+- This plot shows most popular aisles based on total products bought.
 
 
 
