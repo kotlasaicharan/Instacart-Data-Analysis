@@ -40,8 +40,6 @@ Instacart is an American technology company that operates as a same-day grocery 
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Total%20Orders%20by%20Customers.png">
 </p>  
 
-
-
 <p align="center">
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Day%20of%20week%20Vs%20Hour%20of%20day.png">
 </p>  
@@ -107,16 +105,17 @@ For the analysis I combined all of the separate data files into one single dataf
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Add%20to%20Cart%20Order%20VS%20Reorder%20Ratio.png">
 </p>
 
-- In the below plot of reorder percentage and number of product purchase, we see a ceiling effect. Many people try different product once and they do not reorder again. Also, there are users who buy certain products regularly. 
+- In the below plot of reorder percentage and number of product purchases, we see a ceiling effect. Many people try different product once and they do not reorder again. Also, there are users who buy certain products regularly. 
 
 <p align="center">
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/EDA/Reorder%20Percentage%20VS%20Total%20Orders.png">
 </p>
 
 - We can see that the total unique users of products having the highest reorder ratio are only a few (1-15 only). This means that these users like these products and would buy regularly.
+  
 
 <p align="center">
-  <img width="500" height="400" src= ![image](https://github.com/user-attachments/assets/10ca1141-ae4a-4a9c-9684-eef30335c829) >
+  <img width="500" height="400" src= "![image](https://github.com/user-attachments/assets/10ca1141-ae4a-4a9c-9684-eef30335c829)" >
 </p>
 
 - In the below plot of cumulative total users per product vs products, we can see that 85% of the users buy only 10000 products out of 49688 products. If we are interested in shelf space optimization, we should have only these 10000 products. Here, I assume that the profit from remaining 39688 products are not significant high. If we had prices of these products, we could have considered the products having high revenue, high reorder percentage and high total product sale.
