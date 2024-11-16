@@ -25,12 +25,12 @@ Instacart is an American technology company that operates as a same-day grocery 
 - **departments**: This file contains different departments and there are total 21 unique departments.
 
 - **orders**: This file contains all the orders made by different users.
-  - There are total 3421083 orders made by total 206209 users.
-  - There are three sets of orders: Prior, Train and Test. The distributions of orders in Train and Test sets are similar whereas the distribution of orders in Prior set is different.
-  - The total orders per customer ranges from 0 to 100.
-          ![image](https://github.com/user-attachments/assets/8fafeee9-c246-45dd-b311-91aa98471ce8)
-  - kjdfhvhfvhef
-  - kjnvjfvefj
+  - There are a total of 3421083 orders made by a total of 206209 users.
+  - There are three sets of orders: Prior, Train, and Test. The distributions of orders in Train and Test sets are similar whereas the distribution of orders in Prior set is different.
+  - The total orders per customer range from 0 to 100.
+  - Based on the plot of 'Orders VS Day of Week', we can map 0 and 1 as Saturday and Sunday, respectively, based on the assumption that most people buy groceries on weekends.
+  - The majority of the orders are made during the day.  
+  - Based on the heatmap between 'Day of Week' and 'Hour of Day,' we can say that Saturday afternoons and Sunday mornings are prime time for orders.
 
 
 
