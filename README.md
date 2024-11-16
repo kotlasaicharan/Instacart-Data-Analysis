@@ -31,7 +31,7 @@ Instacart is an American technology company that operates as a same-day grocery 
   - Based on the plot of 'Orders VS Day of Week', we can map 0 and 1 as Saturday and Sunday, respectively, based on the assumption that most people buy groceries on weekends.
   - The majority of the orders are made during the day.  
   - Based on the heatmap between 'Day of Week' and 'Hour of Day,' we can say that Saturday afternoons and Sunday mornings are prime time for orders.
-
+  -most of the orders takes place from 8AM to 6 PM
 <p align="center">
   <img width="400" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Total%20Orders%20per%20Day%20of%20Week.png">
 </p>
@@ -45,7 +45,7 @@ Instacart is an American technology company that operates as a same-day grocery 
 <p align="center">
   <img width="600" height="300" src="https://github.com/kotlasaicharan/Instacart-Data-Analysis/blob/main/plots/Data%20Analyzation/Frequency%20of%20Day%20of%20week%20Vs%20Hour%20of%20day.png">
 </p>  
-  -most of the orders takes place from 8AM to 6 PM
+  
 - **products:** This file contains the list of total 49688 products and their aisle as well as department. The number of products in different aisles and different departments are different.
 
 - **order_products_prior:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
