@@ -165,8 +165,7 @@ Products have no effect on each other's sales
 **Lift > 1**: Positive correlation
 
 Products complement each other
-Example: Lift = 2 means customers are twice as likely to buy B when they buy A
-
+Example: Item A increases the likelihood of Item B being purchased. The higher the lift value, the stronger the association. For example, a lift of 3 for the rule {Cereal → Milk} means that a customer is three times more likely to buy milk if they have already put cereal in their basket, compared to the general likelihood of any customer buying milk
 
 **Lift < 1**: Negative correlation
 
