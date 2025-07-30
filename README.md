@@ -8,6 +8,7 @@ Instacart is an American technology company that operates as a same-day grocery 
 - Build a machine learning model to predict which previously purchased product will be placed in the user’s next order.
 
 ## Repo details
+All csv files are present [here(drive)](https://drive.google.com/drive/folders/1CmKLnH9aMx3IMDMahSiVDA-JGWOqBl7y?usp=sharing)
 ```
 ├── Plots/                                      : Contains all plots 
 ├── Instacart Data Analysis.ipynb               : Initial analysis to understand data
